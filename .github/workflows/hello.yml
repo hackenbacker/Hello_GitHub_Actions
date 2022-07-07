@@ -1,0 +1,9 @@
+name: Chapter 1
+on: push
+
+jobs:
+ build:
+  name: Greeting
+  runs-on: macos-latest
+  steps:
+   - run: echo "The World!"
